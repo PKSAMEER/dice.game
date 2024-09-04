@@ -1,0 +1,82 @@
+#bbd{
+    background-color: blueviolet;
+}
+
+
+.dice{
+    font-family: "Playwrite PE", cursive;
+    font-size:100px;
+    text-align: center;
+    line-height: 0.2;
+}
+
+#Play{
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: -50px;
+}
+.p1{
+    font-family: "Playwrite PE", cursive;
+    line-height: 0.2;
+    font-size: 50px;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.p2{
+    font-family: "Playwrite PE", cursive;
+    line-height: 0.2;
+    font-size: 50px;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+#boxes{
+    display: flex;
+    align-items: center;
+     justify-content: space-around; 
+}
+
+#box1{
+   width: 300px; height: 300px;
+   
+}
+
+#box2{
+    width: 300px; height: 300px;
+    
+   
+}
+
+#but{
+    font-family: "Playwrite PE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    background-color: transparent;
+    color: black;
+    border-radius:50px;
+    display:block;
+    margin: auto;
+    transition:0.5s;
+}
+#but:hover{
+    background-color: black;
+    color: white;
+}
+
+#winn{
+    
+    margin: auto;
+    font-family: "Playwrite PE", cursive;
+    font-size: 40px;
+}
+
+footer{
+    margin-top: 100px;
+    font-family: "Playwrite PE", cursive;
+    font-size: 20px;
+}
